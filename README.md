@@ -28,6 +28,18 @@
  * How to create a parent gradle, like a parent POM? 
  
     Define a gradle script (something like a parent pom), then apply it (something like extending) in my build.gradle file through ```apply from: 'https://youUrlHere/parent.gradle'```
+    
+ * Use C1 Snapshots? 
+ 
+   Use 
+   
+   `
+    repositories {
+        maven {
+        url 'https://nexus.kdc.capitalone.com/mother/content/groups/CI_Snapshots'
+      }
+    }
+  `
 
 ##### References
 
