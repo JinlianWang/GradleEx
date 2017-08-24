@@ -24,6 +24,10 @@
  * How to create gradle wrapper? 
  
     Use ```gradle wrapper --gradle-version 2.13```. 
+    
+ * How to create a parent gradle, like a parent POM? 
+ 
+    Define a gradle script (something like a parent pom), then apply it (something like extending) in my build.gradle file through ```apply from: 'https://youUrlHere/parent.gradle'```
 
 ##### References
 
