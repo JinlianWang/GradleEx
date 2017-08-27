@@ -32,7 +32,7 @@
     
  * How to use local jar files? 
  
- Per `https://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file`, use 
+    Per `https://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file`, use 
 
  ```
  dependencies {
