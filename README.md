@@ -34,24 +34,24 @@
  
     Per `https://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file`, use 
 
- ```
- dependencies {
-    compile files('libs/something_local.jar')
- }
- 
- or
- dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
- }
- 
- or 
- 
- repositories {
-   flatDir {
-       dirs 'libs'
-   }
- }
- ```
+    ```
+    dependencies {
+      compile files('libs/something_local.jar')
+    }
+
+    or
+    dependencies {
+      compile fileTree(dir: 'libs', include: ['*.jar'])
+    }
+
+    or 
+
+    repositories {
+     flatDir {
+         dirs 'libs'
+     }
+    }
+    ```
  
  * Use C1 Snapshots? 
  
